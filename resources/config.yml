@@ -1,0 +1,34 @@
+# StaffHelp Configuration
+messages:
+  prefix: "&8[&bStaffHelp&8]"
+  no-permission: "&cYou don't have permission to use this command!"
+  
+  # SOS Messages
+  sos-sent: "&aYour help request has been sent to the staff team!"
+  sos-alert: "&b%player% &7needs help: &f%reason%"
+  sos-location: "&7Location: &f%world% X:%x% Y:%y% Z:%z%"
+  sos-answered: "&aYou answered &b%player%'s &acall!"
+  sos-gui-title: "&8SOS Tickets - Click to attend"
+  
+  # 911 Emergency Messages
+  911-sent: "&aYour emergency request has been sent!"
+  911-alert: "&c&lEMERGENCY! &r&c%player% &7needs help: &f%reason%"
+  911-location: "&7Location: &f%world% X:%x% Y:%y% Z:%z%"
+  911-gui-title: "&4&lEMERGENCY 911"
+  911-compass-name: "&c&lEmergency Compass &7- %player%"
+  911-compass-lore: "&7Follow this compass to &c%player%"
+  
+  # QRR Messages
+  qrr-sent: "&aQRR sent! A staff member will receive a compass to locate you"
+  qrr-alert: "&e&lQRR! &e%player% &7needs assistance"
+  qrr-gui-title: "&e&lQRR - Assistance Requests"
+  qrr-compass-name: "&e&lQRR Compass &7- %player%"
+  qrr-compass-lore: "&7Follow this compass to &e%player%"
+  
+  # Reload Message
+  reload-success: "&aConfiguration reloaded successfully!"
+
+# Color Configuration (used for formatting)
+colors:
+  primary: "&b"
+  secondary: "&7"

@@ -1,0 +1,48 @@
+name: StaffHelp
+version: 1.3
+main: com.staffhelp.StaffHelp
+api-version: 1.20
+author: FoxOficial2
+description: Staff help ticket system with compass tracking
+
+commands:
+  staff:
+    description: Open tickets menu
+    usage: /staff
+  sos:
+    description: Request help
+    usage: /sos <reason>
+  911:
+    description: Emergency request
+    usage: /911 <reason>
+  911gui:
+    description: Open emergency menu
+    usage: /911gui
+  qrr:
+    description: Request assistance
+    usage: /qrr
+  qrrmenu:
+    description: Open QRR menu
+    usage: /qrrmenu
+  staffhelp:
+    description: Main plugin command
+    usage: /staffhelp reload
+
+permissions:
+  staffhelp.staff:
+    description: Staff permission
+    default: op
+    children:
+      staffhelp.staff.sos: true
+      staffhelp.staff.911: true
+      staffhelp.staff.qrr: true
+      staffhelp.staff.menu: true
+      staffhelp.staff.reload: true
+  
+  staffhelp.player:
+    description: Player permission
+    default: true
+    children:
+      staffhelp.player.sos: true
+      staffhelp.player.qrr: true
+      staffhelp.player.911: true
