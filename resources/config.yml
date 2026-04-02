@@ -15,15 +15,92 @@ messages:
   911-alert: "&c&lEMERGENCY! &r&c%player% &7needs help: &f%reason%"
   911-location: "&7Location: &f%world% X:%x% Y:%y% Z:%z%"
   911-gui-title: "&4&lEMERGENCY 911"
-  911-compass-name: "&c&lEmergency Compass &7- %player%"
-  911-compass-lore: "&7Follow this compass to &c%player%"
+  911.compass-name: "&c&lEmergency Compass &7- %player%"
+  911.compass-lore: "&7Follow this compass to &c%player%"
   
   # QRR Messages
   qrr-sent: "&aQRR sent! A staff member will receive a compass to locate you"
   qrr-alert: "&e&lQRR! &e%player% &7needs assistance"
   qrr-gui-title: "&e&lQRR - Assistance Requests"
-  qrr-compass-name: "&e&lQRR Compass &7- %player%"
-  qrr-compass-lore: "&7Follow this compass to &e%player%"
+  qrr.compass-name: "&e&lQRR Compass &7- %player%"
+  qrr.compass-lore: "&7Follow this compass to &e%player%"
+  
+  # MEDIC Messages
+  medic-sent: "&cMedical assistance request sent!"
+  medic-alert: "&c&lMEDIC! &c%player% &7needs medical assistance: &f%reason%"
+  medic-gui-title: "&c&lMEDIC - Emergency"
+  medic.compass-name: "&c&lMedical Compass &7- %player%"
+  medic.compass-lore: "&7Follow this compass to &c%player%"
+  
+  # 912 Messages
+  912-sent: "&cEmergency 912 request sent!"
+  912-alert: "&c&lEMERGENCY 912! &c%player% &7needs help: &f%reason%"
+  912-gui-title: "&c&lEMERGENCY 912"
+  912.compass-name: "&c&l912 Compass &7- %player%"
+  912.compass-lore: "&7Follow this compass to &c%player%"
+  
+  # 190 Police Messages
+  190-sent: "&9Police 190 request sent!"
+  190-alert: "&9&lPOLICE 190! &9%player% &7needs police assistance: &f%reason%"
+  190-gui-title: "&9&lPOLICE 190"
+  190.compass-name: "&9&lPolice Compass &7- %player%"
+  190.compass-lore: "&7Follow this compass to &9%player%"
+  
+  # MECANIC Messages
+  mecanic-sent: "&7Mechanical assistance request sent!"
+  mecanic-alert: "&7&lMECHANIC! &7%player% &7needs mechanical assistance: &f%reason%"
+  mecanic-gui-title: "&7&lMECHANIC - Assistance"
+  mecanic.compass-name: "&7&lMechanic Compass &7- %player%"
+  mecanic.compass-lore: "&7Follow this compass to &7%player%"
+  
+  # SUPPORT Messages
+  support-sent: "&aSupport request sent!"
+  support-alert: "&a&lSUPPORT! &a%player% &7needs support: &f%reason%"
+  support-gui-title: "&a&lSUPPORT - Help"
+  support.compass-name: "&a&lSupport Compass &7- %player%"
+  support.compass-lore: "&7Follow this compass to &a%player%"
+  
+  # HELPER Messages
+  helper-sent: "&dHelper assistance request sent!"
+  helper-alert: "&d&lHELPER! &d%player% &7needs assistance: &f%reason%"
+  helper-gui-title: "&d&lHELPER - Assistance"
+  helper.compass-name: "&d&lHelper Compass &7- %player%"
+  helper.compass-lore: "&7Follow this compass to &d%player%"
+  
+  # TAXI Messages
+  taxi-sent: "&eTaxi request sent!"
+  taxi-alert: "&e&lTAXI! &e%player% &7needs a taxi"
+  taxi-gui-title: "&e&lTAXI - Transport"
+  taxi.compass-name: "&e&lTaxi Compass &7- %player%"
+  taxi.compass-lore: "&7Follow this compass to &e%player%"
+  
+  # 918 Messages
+  918-sent: "&4Emergency 918 request sent!"
+  918-alert: "&4&lEMERGENCY 918! &4%player% &7needs help: &f%reason%"
+  918-gui-title: "&4&lEMERGENCY 918"
+  918.compass-name: "&4&l918 Compass &7- %player%"
+  918.compass-lore: "&7Follow this compass to &4%player%"
+  
+  # 900 Messages
+  900-sent: "&cEmergency 900 request sent!"
+  900-alert: "&c&lEMERGENCY 900! &c%player% &7needs help: &f%reason%"
+  900-gui-title: "&c&lEMERGENCY 900"
+  900.compass-name: "&c&l900 Compass &7- %player%"
+  900.compass-lore: "&7Follow this compass to &c%player%"
+  
+  # 920 Messages
+  920-sent: "&cEmergency 920 request sent!"
+  920-alert: "&c&lEMERGENCY 920! &c%player% &7needs help: &f%reason%"
+  920-gui-title: "&c&lEMERGENCY 920"
+  920.compass-name: "&c&l920 Compass &7- %player%"
+  920.compass-lore: "&7Follow this compass to &c%player%"
+  
+  # 910 Messages
+  910-sent: "&cEmergency 910 request sent!"
+  910-alert: "&c&lEMERGENCY 910! &c%player% &7needs help: &f%reason%"
+  910-gui-title: "&c&lEMERGENCY 910"
+  910.compass-name: "&c&l910 Compass &7- %player%"
+  910.compass-lore: "&7Follow this compass to &c%player%"
   
   # Reload Message
   reload-success: "&aConfiguration reloaded successfully!"

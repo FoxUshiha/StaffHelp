@@ -1,5 +1,5 @@
 name: StaffHelp
-version: 1.3
+version: 1.5
 main: com.staffhelp.StaffHelp
 api-version: 1.20
 author: FoxOficial2
@@ -24,6 +24,72 @@ commands:
   qrrmenu:
     description: Open QRR menu
     usage: /qrrmenu
+  medic:
+    description: Request medical assistance
+    usage: /medic <reason>
+  medicgui:
+    description: Open medical menu
+    usage: /medicgui
+  912:
+    description: Emergency 912 request
+    usage: /912 <reason>
+  912gui:
+    description: Open emergency 912 menu
+    usage: /912gui
+  190:
+    description: Police 190 request
+    usage: /190 <reason>
+  190gui:
+    description: Open police menu
+    usage: /190gui
+  mecanic:
+    description: Request mechanical assistance
+    usage: /mecanic <reason>
+  mecanicgui:
+    description: Open mechanic menu
+    usage: /mecanicgui
+  support:
+    description: Request support
+    usage: /support <reason>
+  supportgui:
+    description: Open support menu
+    usage: /supportgui
+  helper:
+    description: Request helper assistance
+    usage: /helper <reason>
+  helpergui:
+    description: Open helper menu
+    usage: /helpergui
+  taxi:
+    description: Request a taxi
+    usage: /taxi
+  taxigui:
+    description: Open taxi menu
+    usage: /taxigui
+  918:
+    description: Emergency 918 request
+    usage: /918 <reason>
+  918gui:
+    description: Open emergency 918 menu
+    usage: /918gui
+  900:
+    description: Emergency 900 request
+    usage: /900 <reason>
+  900gui:
+    description: Open emergency 900 menu
+    usage: /900gui
+  920:
+    description: Emergency 920 request
+    usage: /920 <reason>
+  920gui:
+    description: Open emergency 920 menu
+    usage: /920gui
+  910:
+    description: Emergency 910 request
+    usage: /910 <reason>
+  910gui:
+    description: Open emergency 910 menu
+    usage: /910gui
   staffhelp:
     description: Main plugin command
     usage: /staffhelp reload
@@ -38,6 +104,17 @@ permissions:
       staffhelp.staff.qrr: true
       staffhelp.staff.menu: true
       staffhelp.staff.reload: true
+      staffhelp.staff.medic: true
+      staffhelp.staff.912: true
+      staffhelp.staff.190: true
+      staffhelp.staff.mecanic: true
+      staffhelp.staff.support: true
+      staffhelp.staff.helper: true
+      staffhelp.staff.taxi: true
+      staffhelp.staff.918: true
+      staffhelp.staff.900: true
+      staffhelp.staff.920: true
+      staffhelp.staff.910: true
   
   staffhelp.player:
     description: Player permission
@@ -46,3 +123,14 @@ permissions:
       staffhelp.player.sos: true
       staffhelp.player.qrr: true
       staffhelp.player.911: true
+      staffhelp.player.medic: true
+      staffhelp.player.912: true
+      staffhelp.player.190: true
+      staffhelp.player.mecanic: true
+      staffhelp.player.support: true
+      staffhelp.player.helper: true
+      staffhelp.player.taxi: true
+      staffhelp.player.918: true
+      staffhelp.player.900: true
+      staffhelp.player.920: true
+      staffhelp.player.910: true
